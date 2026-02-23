@@ -11,7 +11,7 @@ function App() {
 
     fetch(API_URL)
       .then(res => res.json())
-      .then(data => setMessage("CI/CD Working 🚀 + 123"))
+      .then(data => setMessage("CI/CD Working 🚀 + 321"))
       .catch(() => setMessage("API Error"));
   }, []);
 
